@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game RPS</title>
-    <!-- <script src="js/main.js"></script> -->
+    
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <h1 class="header__title">Game</h1>
+        <h1 class="header__title">Game <br></h1>
+        <p>Let's play a Game of rock paper scissors! Click to start</p>
     </header>
 
-    <div class="content">
-        <nav class="btn__nav">
-            <button class="btn rock__btn">🪨</button>
-            <button class=" btn paper__btn">🗞</button>
-            <button class="btn scissors__btn">✂️</button>
-        </nav>
+    <div class="button">
+       
+            <button id="rock" class="btn rock__btn">🪨</button>
+            <button id="paper" class=" btn paper__btn">🗞</button>
+            <button id="scissors" class="btn scissors__btn">✂️</button>
+        
     </div>
-
+    <div id="result"></div>
+    <script src="js/main.js"></script>
 </body>
 </html>

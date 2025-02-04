@@ -22,6 +22,9 @@ body {
 button{
     font: inherit;
 }
+.header{
+    text-align: center;
+}
 .content{
     display: flex;
     flex-flow: column nowrap;
@@ -45,4 +48,8 @@ button{
 
 .scissors__btn{
     background-color: aquamarine;
+}
+
+#result{
+    font-size: medium;
 }
